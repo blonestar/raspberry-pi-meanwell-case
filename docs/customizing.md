@@ -1,6 +1,6 @@
 # Editing the design
 
-The source is `cad/RPi-PSU-enclosure.sc`, made in [SolidCraft](https://solidcraft.app). Every size is a named parameter, so a change to one number rebuilds the whole enclosure.
+The source is `cad/RPi-PSU-enclosure.sc`, made in [SolidCraft](https://solidcraft.io) 0.41.0, a free and open-source CAD application. Download it from the [SolidCraft releases](https://github.com/tangency-labs/solidcraft/releases/latest). See [cad/SOLIDCRAFT.txt](../cad/SOLIDCRAFT.txt). Every size is a named parameter, so a change to one number rebuilds the whole enclosure.
 
 ## Variants
 
