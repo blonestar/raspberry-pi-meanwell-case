@@ -9,6 +9,8 @@ You need the parts in the [bill of materials](BOM.md), a soldering iron for the 
 3. Screw the power supply to the base with 2 × M3 × 8 from below. It sits on two 2.5 mm pads.
 4. Screw the Raspberry Pi to the four standoffs with 4 × M2.5 × 6. The USB and Ethernet ports face the front edge of the base.
 5. Lay the mains cable in the strain-relief channel at the front right corner and connect it to the L and N terminals of the power supply.
+
+   The 2-core cable has no protective earth, so the FG (earth) terminal of the power supply stays unconnected. Mean Well specifies the RS-25 with FG connected to earth. The plastic enclosure covers every live part, but the build is not earthed. The strain relief fits only the flat 2-core cable, so an earthed build needs a different cable entry.
 6. Connect the power supply to the GPIO header, which faces the power supply. Pin 1 is at the end of the header far from the USB and Ethernet ports. The even pins (2, 4, 6 … 14) are on the outer row, along the board edge.
    - +V to pin 2 and pin 4 (5 V), with one wire each.
    - −V to pin 6 and pin 14 (GND), with one wire each.
