@@ -1,6 +1,6 @@
 # Editing the design
 
-The source is `cad/RPi-PSU-enclosure.sc`, made in [SolidCraft](https://solidcraft.app). Every size is a named parameter, so a change to one number rebuilds the whole enclosure.
+The source is `cad/RPi-PSU-enclosure.sc`, made in [SolidCraft](https://solidcraft.io) 0.41.0, a free and open-source CAD application. Download it from the [SolidCraft releases](https://github.com/tangency-labs/solidcraft/releases/latest). See [cad/SOLIDCRAFT.txt](../cad/SOLIDCRAFT.txt). Every size is a named parameter, so a change to one number rebuilds the whole enclosure.
 
 ## Variants
 
@@ -40,3 +40,7 @@ A row sets two parameters and suppresses features.
 python3 scripts/export_variants.py              # everything
 python3 scripts/export_variants.py --only rpi5_ha_fan40
 ```
+
+## Saving with a newer SolidCraft
+
+`cad/SOLIDCRAFT.txt` names the SolidCraft version and the file format of the design. When you save the design with a newer SolidCraft, update both lines. The `check` workflow runs `scripts/check_cad_info.py` on every pull request and fails when the format no longer matches.
