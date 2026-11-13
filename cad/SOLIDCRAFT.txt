@@ -11,8 +11,16 @@ a free, open-source 3D CAD application (Apache-2.0 license) by Tangency Labs.
 
 Version
 -------
+Made with SolidCraft 0.41.0
+File format: solidcraft/55
+
 Open the file with SolidCraft 0.41.0 or newer. Older versions cannot read
 its file format.
+
+Keep these two lines current. When you save the file with a newer
+SolidCraft, write its version and the new file format here.
+scripts/check_cad_info.py runs on every pull request and fails when the
+file format in the .sc file no longer matches this file.
 
 What is in the file
 -------------------

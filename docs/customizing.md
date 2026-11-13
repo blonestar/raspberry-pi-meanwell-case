@@ -40,3 +40,7 @@ A row sets two parameters and suppresses features.
 python3 scripts/export_variants.py              # everything
 python3 scripts/export_variants.py --only rpi5_ha_fan40
 ```
+
+## Saving with a newer SolidCraft
+
+`cad/SOLIDCRAFT.txt` names the SolidCraft version and the file format of the design. When you save the design with a newer SolidCraft, update both lines. The `check` workflow runs `scripts/check_cad_info.py` on every pull request and fails when the format no longer matches.
