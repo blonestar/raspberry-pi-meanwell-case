@@ -51,4 +51,4 @@ The Home Assistant and Raspberry Pi logos are trademarks of their owners. See [c
 
 ## License
 
-TODO: choose a license.
+[CC BY-NC-SA 4.0](LICENSE). You may print, change and share this design, also as a remix, if you credit the author, do not sell it or prints of it, and share your changes under the same license.
