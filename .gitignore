@@ -1,0 +1,11 @@
+# SolidCraft lock and recovery files
+.~*.lock
+*.sc.bak
+*.solidcraft.bak
+
+# Slicer and OS clutter
+*.gcode
+*.bgcode
+.DS_Store
+Thumbs.db
+__pycache__/
