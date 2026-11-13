@@ -1,5 +1,7 @@
 # Raspberry Pi 4 / 5 enclosure with built-in Mean Well RS-25-5 power supply
 
+> **Experimental.** This design is still being tested. If something does not fit or does not work, please [open an issue](https://github.com/blonestar/raspberry-pi-meanwell-case/issues).
+
 A two-part 3D-printed enclosure that holds a Raspberry Pi 4 or Raspberry Pi 5 next to a Mean Well RS-25-5 (5 V, 5 A) power supply. One mains cable goes in. Nothing else hangs off the box. It stands on a shelf or hangs on a wall from two keyholes.
 
 | Home Assistant | Raspberry Pi | No logo |
